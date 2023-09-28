@@ -116,7 +116,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Large devices */
     body {
-        min-width: 992px;
+        min-width: 1080px;
     }
     .logo{
         max-width: 125px;
