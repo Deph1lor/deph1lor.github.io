@@ -1,0 +1,95 @@
+body {
+    min-width: 320px; /* Considering the smallest device width */
+    background-color: #4c4c4c;
+}
+
+.img-fluid {
+    border-radius: 5px;
+}
+
+.nav-item {
+    position: relative;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-item:hover {
+    background-color: #808080;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.navbar-brand:hover {
+    color: rgb(150, 141, 68);
+}
+
+.nav-link {
+    font-size: larger;
+    color: aliceblue;
+}
+
+/* Specific Classes for Text Center Div */
+.text-center.zoom-in {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 100px;
+}
+
+.welcome-text {
+    color: aliceblue;
+}
+
+.group-name {
+    color: rgb(226, 215, 113);
+}
+
+/* Specific Classes for Content Container Div */
+.content-container.fade-right {
+    margin: 20px;
+    padding: 20px;
+}
+
+.content-text {
+    color: antiquewhite;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 575.98px) {
+    /* Extra small devices */
+    body {
+        
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Small devices */
+    body {
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Medium devices */
+    body {
+        
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Large devices */
+    body {
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Extra large devices */
+    body {
+        
+    }
+}
