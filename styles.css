@@ -34,7 +34,7 @@ body {
 }
 
 /* Specific Classes for Text Center Div */
-.text-center.zoom-in {
+.text-center.intro-title {
     padding-left: 50px;
     padding-right: 50px;
     margin: 100px;
@@ -43,7 +43,9 @@ body {
 .welcome-text {
     color: aliceblue;
 }
-
+.intro-text{
+    margin: 50px;
+}
 .group-name {
     color: rgb(226, 215, 113);
 }
